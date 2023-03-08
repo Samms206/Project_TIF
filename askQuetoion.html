@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ask Question</title>
+</head>
+<body bgcolor="#00ffff">
+	<table width="80%" border="0" align="center" cellpadding="5" cellspacing="0">
+		<tr>
+			<td>
+				<h1>Ask Question</h1>
+				<p>Please fill out the form below to ask a question about our organization:</p>
+				<form action="#" method="post">
+					<label for="name">Full Name:</label>
+					<input type="text" name="name" id="name" required><br><br>
+					
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" required><br><br>
+					
+					<label for="phone">Mobile Phone:</label>
+					<input type="tel" name="phone" id="phone" required><br><br>
+					
+					<label for="address">Address:</label>
+					<textarea name="address" id="address" required></textarea><br><br>
+					
+					<label for="zipcode">Zip Code:</label>
+					<input type="text" name="zipcode" id="zipcode" required><br><br>
+					
+					<label for="info">Organization Activity/Information:</label>
+					<select name="info" id="info" required>
+						<option value="">--Select--</option>
+						<option value="activity1">Activity 1</option>
+						<option value="activity2">Activity 2</option>
+						<option value="activity3">Activity 3</option>
+						<option value="info1">Information 1</option>
+						<option value="info2">Information 2</option>
+						<option value="info3">Information 3</option>
+					</select><br><br>
+					
+					<label for="question">Question:</label>
+					<textarea name="question" id="question" required></textarea><br><br>
+					
+					<label for="preference">Reply Preference:</label>
+					<input type="checkbox" name="preference[]" value="email"> Email
+					<input type="checkbox" name="preference[]" value="phone"> Phone<br><br>
+					
+					<button><a href="responseQuetion.html">submit</a></button>
+				</form>
+				<br>
+				<a href="index.html">Back to Home Page</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
